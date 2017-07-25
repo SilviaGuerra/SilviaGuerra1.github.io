@@ -1,0 +1,88 @@
+body {
+  height:100%;
+  width:100%;
+  /*font-family: 'Handlee', cursive; */
+  /*font-family: 'Fredoka One', cursive;*/
+  /*font-family: 'Patrick Hand', cursive; */
+}
+
+/*#home*/
+header{
+  background-image: url('../assets/img/jan-kahanek-184676.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-attachment:fixed;
+  height: 1000px;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.nav-wrapper{
+  background: #fdaeae;
+}
+
+nav ul a {
+  color: #f6e2b3;
+}
+
+.icono{
+  margin: -6px;
+}
+
+#mobile-demo{
+  color: #f6e2b3;
+}
+
+.nombre_principal{
+  color: #3f3328;
+  margin: 15%;
+}
+
+hr{
+  display: inline-block;
+  width: 50px;
+  border: none;
+  height: 1px;
+  background: #ff8daa;
+}
+
+.titulo-seccion{
+  font-family: 'Cabin Sketch', cursive;
+  color: #ff8daa;
+}
+
+.icono-titulo{
+  margin: 6px;
+}
+
+.horizontal{
+  background: #f6e2b3;
+}
+
+.card-image{
+  background: black;
+}
+
+.titulo-tarjeta{
+  font-family: 'Cabin Sketch', cursive;
+  color: #7e6651;
+  margin-left: 20px;
+}
+
+.card-content{
+  font-family: 'Patrick Hand', cursive;
+  /*font-family: 'Handlee', cursive;*/
+  /*font-family: 'Fredoka One', cursive;*/
+}
+
+.card-action{
+  font-family: 'Handlee', cursive;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){
+  color: #fdaeae;
+}
+
+a:hover{
+  color: #ff8daa;
+}
