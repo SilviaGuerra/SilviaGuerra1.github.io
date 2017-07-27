@@ -70,13 +70,13 @@ hr{
 }
 
 .card-content{
-  font-family: 'Patrick Hand', cursive;
-  /*font-family: 'Handlee', cursive;*/
-  /*font-family: 'Fredoka One', cursive;*/
+  font-family: 'Cabin Sketch', cursive;
+  text-align: justify;
+  color: 	#b49982;
 }
 
 .card-action{
-  font-family: 'Handlee', cursive;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){
@@ -84,5 +84,14 @@ hr{
 }
 
 a:hover{
+  color: #fff;
+  background: none;
+}
+
+nav .brand-logo{
+  padding: 0 24px;
+}
+
+.brand-logo:hover{
   color: #ff8daa;
 }
