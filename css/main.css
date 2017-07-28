@@ -1,9 +1,7 @@
 body {
   height:100%;
   width:100%;
-  /*font-family: 'Handlee', cursive; */
-  /*font-family: 'Fredoka One', cursive;*/
-  /*font-family: 'Patrick Hand', cursive; */
+  font-family: 'Cabin Sketch', cursive;
 }
 
 /*#home*/
@@ -14,19 +12,23 @@ header{
   background-position:center center;
   background-attachment:fixed;
   height: 1000px;
-  font-family: 'Cabin Sketch', cursive;
 }
 
-.nav-wrapper{
+.nav-wrapper, .page-footer{
   background: #fdaeae;
 }
 
-nav ul a {
+nav ul a, .link-amarillo{
   color: #f6e2b3;
 }
 
 .icono{
   margin: -6px;
+}
+
+.iconos-redes{
+  display: inline;
+  margin-left: 20px;
 }
 
 #mobile-demo{
@@ -47,7 +49,6 @@ hr{
 }
 
 .titulo-seccion{
-  font-family: 'Cabin Sketch', cursive;
   color: #ff8daa;
 }
 
@@ -59,24 +60,19 @@ hr{
   background: #f6e2b3;
 }
 
-.card-image{
-  background: black;
+.imagen-proyecto{
+  filter: blur(3px);
+  margin-top: 40px;
 }
 
 .titulo-tarjeta{
-  font-family: 'Cabin Sketch', cursive;
   color: #7e6651;
   margin-left: 20px;
 }
 
 .card-content{
-  font-family: 'Cabin Sketch', cursive;
   text-align: justify;
   color: 	#b49982;
-}
-
-.card-action{
-  font-family: 'Cabin Sketch', cursive;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){
@@ -94,4 +90,121 @@ nav .brand-logo{
 
 .brand-logo:hover{
   color: #ff8daa;
+}
+
+.descripcion-me{
+  text-align: justify;
+  width: 80%;
+  color: #b49982;
+  font-size: 20px;
+}
+
+.card{
+  color: #b49982;
+  font-size: 18px;
+}
+
+.card-reveal p{
+  text-align: justify;
+}
+
+.card-content p a {
+  color: #fdaeae;
+}
+
+.card-content p a:hover{
+  color: #ff8daa;
+}
+
+.link-amarillo{
+  font-size: 16px;
+  margin: 10px;
+}
+
+/*graficas*/
+@-webkit-keyframes
+load { 0% {
+  stroke-dashoffset:0
+}
+}
+@-moz-keyframes
+load { 0% {
+  stroke-dashoffset:0
+}
+}
+@-ms-keyframes
+load { 0% {
+  stroke-dashoffset:0
+}
+}
+@keyframes
+load { 0% {
+  stroke-dashoffset:0
+}
+}
+
+/* Container */
+
+.progress {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+}
+
+/* Item */
+
+.progress>li {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: #93A2AC;
+  font-family: Lato;
+  font-weight: 100;
+  margin: 2rem;
+}
+
+.progress>li:before {
+  content: attr(data-name);
+  position: absolute;
+  width: 100%;
+  bottom: -2rem;
+  font-weight: 400;
+}
+
+.progress>li:after {
+  content: attr(data-percent);
+  position: absolute;
+  width: 100%;
+  top: 3.7rem;
+  left: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.progress svg {
+  width: 10rem;
+  height: 10rem;
+}
+
+.progress svg:nth-child(2) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+}
+
+.progress svg:nth-child(2) path {
+  fill: none;
+  stroke-width: 25;
+  stroke-dasharray: 629;
+  stroke: rgba(255, 255, 255, 0.9);
+  -webkit-animation: load 4s;
+  -moz-animation: load 4s;
+  -ms-animation: load 4s;
+  -o-animation: load 4s;
+  animation: load 4s;
 }
