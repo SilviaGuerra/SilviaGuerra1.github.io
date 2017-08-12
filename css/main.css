@@ -121,21 +121,34 @@ nav .brand-logo{
   margin: 10px;
 }
 
-#proyectos-cel{
+.titulos-cel{
   display: none;
 }
 
-.conocimientos-cel{
-  display: none;
-}
 
 /*media querys*/
 @media (max-width: 500px) {
+  header{
+    height: 450px;
+  }
+
+  .nombre_principal{
+    margin-top: 25%;
+  }
+
+  /*.icono-titulo{
+    width: 60px;
+  }
+
+  h1{
+    font-size: 40px;
+  }*/
+
   #proyectos{
     display: none;
   }
 
-  #proyectos-cel{
+  .titulos-cel{
     display: block;
   }
 
@@ -144,22 +157,15 @@ nav .brand-logo{
     justify-content: center;
   }
 
-  .conocimientos-compu{
+  .titulos-compu{
     display: none;
   }
-  .conocimientos-cel{
-    display: block;
+
+  .conocimientos-titulo{
+    font-size: 30px;
   }
-  /*header{
-    height: 350px;
-  }*/
-  /*.nombre_principal{
-    margin-top: 80%;
-  }*/
-  /*.icono-titulo{
-    width: 60px;
+
+  .center{
+    font-size: 13px;
   }
-  h1{
-    font-size: 40px;
-  }*/
 }
