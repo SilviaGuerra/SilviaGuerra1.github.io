@@ -35,9 +35,13 @@ nav ul a, .link-amarillo{
   color: #f6e2b3;
 }
 
-.nombre_principal{
+.titulo-principal{
   color: #3f3328;
   margin: 15%;
+}
+
+.nombre_principal{
+  color: #3f3328;
 }
 
 hr{
@@ -132,17 +136,18 @@ nav .brand-logo{
     height: 450px;
   }
 
-  .nombre_principal{
+  .titulo-principal{
     margin-top: 25%;
   }
 
-  /*.icono-titulo{
-    width: 60px;
+  .nombre_principal{
+    color: #3f3328;
+    font-size: 35px;
   }
 
-  h1{
-    font-size: 40px;
-  }*/
+  .titulo-desarrolladora{
+    font-size: 15px;
+  }
 
   #proyectos{
     display: none;
