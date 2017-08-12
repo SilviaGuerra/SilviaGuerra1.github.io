@@ -62,7 +62,7 @@ hr{
 
 .imagen-proyecto{
   /*filter: blur(3px);*/
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .titulo-tarjeta{
@@ -121,12 +121,45 @@ nav .brand-logo{
   margin: 10px;
 }
 
+#proyectos-cel{
+  display: none;
+}
+
+.conocimientos-cel{
+  display: none;
+}
+
 /*media querys*/
-@media (max-width: 300px) {
+@media (max-width: 500px) {
+  #proyectos{
+    display: none;
+  }
+
+  #proyectos-cel{
+    display: block;
+  }
+
+  .card-title{
+    display: flex;
+    justify-content: center;
+  }
+
+  .conocimientos-compu{
+    display: none;
+  }
+  .conocimientos-cel{
+    display: block;
+  }
   /*header{
     height: 350px;
   }*/
-  .nombre_principal{
+  /*.nombre_principal{
     margin-top: 80%;
+  }*/
+  /*.icono-titulo{
+    width: 60px;
   }
+  h1{
+    font-size: 40px;
+  }*/
 }
